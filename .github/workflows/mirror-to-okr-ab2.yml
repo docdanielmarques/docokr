@@ -1,8 +1,8 @@
 name: Mirror docokr to Lovable repo
 
+# Pausado: só executa manualmente quando solicitado.
 on:
-  push:
-    branches: [main]
+  workflow_dispatch:
 
 jobs:
   mirror:
